@@ -1,0 +1,24 @@
+// Отступы
+:root {
+  --margin-step: 4px;
+  --a-margin-x0: 0;
+  --a-margin-x1: var(--margin-step);
+  --a-margin-x2: calc(var(--margin-step) * 2);
+  --a-margin-x3: calc(var(--margin-step) * 3);
+  --a-margin-x4: calc(var(--margin-step) * 4);
+  --a-margin-x5: calc(var(--margin-step) * 5);
+  --a-margin-x6: calc(var(--margin-step) * 6);
+  --a-margin-x7: calc(var(--margin-step) * 7);
+  --a-margin-x8: calc(var(--margin-step) * 8);
+  --a-margin-x9: calc(var(--margin-step) * 9);
+  --a-margin-x10: calc(var(--margin-step) * 10);
+  --a-margin-x11: calc(var(--margin-step) * 11);
+  --a-margin-x12: calc(var(--margin-step) * 12);
+  --a-margin-x13: calc(var(--margin-step) * 13);
+  --a-margin-x14: calc(var(--margin-step) * 14);
+  --a-margin-x15: calc(var(--margin-step) * 15);
+  --a-margin-x16: calc(var(--margin-step) * 16);
+  --a-margin-x17: calc(var(--margin-step) * 17);
+  --a-margin-x18: calc(var(--margin-step) * 18);
+  --a-margin-x20: calc(var(--margin-step) * 20);
+}

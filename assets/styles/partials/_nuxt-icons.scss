@@ -1,0 +1,14 @@
+.nuxt-icon {
+  display: inline-block;
+
+  svg {
+    // stylelint-disable-next-line
+    width: auto !important;
+    // stylelint-disable-next-line
+    height: auto !important;
+    // stylelint-disable-next-line
+    margin-bottom: 0 !important;
+    // stylelint-disable-next-line
+    vertical-align: top !important;
+  }
+}

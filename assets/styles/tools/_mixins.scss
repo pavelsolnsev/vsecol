@@ -1,0 +1,25 @@
+// Функции для работы с компонентнами
+@use 'sass:math';
+
+@function to-rem($px) {
+  @return math.div($px, 16) + rem;
+}
+
+@mixin define-line-height($size, $px) {
+  --line-height-#{$size}: #{to-rem($px)};
+}
+
+@mixin block-scroll {
+  &::-webkit-scrollbar-track {
+    background-color: #f6f6f7;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f6f6f7;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #dfdbda;
+  }
+}
